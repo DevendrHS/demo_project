@@ -12,6 +12,7 @@ const config = {
   corsOrigin: process.env.CORS_ORIGIN || "http://localhost:3000",
   rpcUrl: process.env.ETHEREUM_RPC_URL || "http://127.0.0.1:8545",
   contractAddress: process.env.CONTRACT_ADDRESS || "",
+  relayerPrivateKey: process.env.RELAYER_PRIVATE_KEY || "",
   chainId: Number(process.env.CHAIN_ID || process.env.NEXT_PUBLIC_CHAIN_ID || 31337),
 };
 
